@@ -1,0 +1,2 @@
+SELECT CONCAT(name, ' (age:', CAST(age AS VARCHAR), ',gender:', CONCAT('''', gender, ''''), ',address:', CONCAT('''', address, ''''), ')') AS person_information
+FROM person ORDER BY person_information ASC;	
